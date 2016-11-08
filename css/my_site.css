@@ -1,0 +1,107 @@
+/* **************************************************************************
+GENERAL
+************************************************************************** */
+
+/* Wrapping content at a fixed width which stays centered */
+.wrap{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+/* **************************************************************************
+ NAV-MOBILE
+************************************************************************** */
+
+
+
+/* **************************************************************************
+ NAV-DESKTOP
+************************************************************************** */
+.nav-desktop{
+    background-color: #222;
+    height: 80px;
+    padding: 0;
+}
+.site-logo{
+    color: white;
+    line-height: 80px;
+    font-size: 1.5em;
+}
+.menu-desktop{
+    background-color: red;
+}
+.nav-desktop .menu-desktop{
+    line-height: 80px;
+    background-color: transparent;
+}
+.nav-desktop a{
+
+}
+.menu > li > a{
+    display: inline-block;
+    line-height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgba(255, 255, 255, 0.9);
+}
+.menu > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* **************************************************************************
+HERO
+************************************************************************** */
+.hero{
+    background-color: #999;
+    padding: 80px 0;
+    background-image: url("../img/cheap_diagonal_fabric.png");
+    height: 400px;
+}
+.hero p{
+    width: 85%;
+}
+
+
+/* **************************************************************************
+MAIN
+************************************************************************** */
+.main{
+    padding: 80px 0;
+}
+
+
+
+/* **************************************************************************
+FOOTER
+************************************************************************** */
+footer{
+    background-color: #222;
+    padding: 80px 0;
+}
+
+footer a{
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer h4{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2em;
+}
+
+footer hr{
+    color: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+}
+
+/* **************************************************************************
+MEDIA QUERIES
+************************************************************************** */
+@media(max-width: 638px){
+    .nav-desktop{
+        display: none;
+    }
+}
