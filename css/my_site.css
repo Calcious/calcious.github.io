@@ -1,13 +1,22 @@
 /* **************************************************************************
 GENERAL
 ************************************************************************** */
+/*@import url('https://fonts.googleapis.com/css?family=Poiret+One');*/
+/*!* Wrapping content at a fixed width which stays centered *!*/
+/*body{*/
+    /*font-family: 'Poiret One', cursive;*/
+/*}*/
 
-/* Wrapping content at a fixed width which stays centered */
 .wrap{
     width: 90%;
     max-width: 700px;
     margin: 0 auto;
 }
+.off-canvas-wrapper{
+    background-color: #222;
+}
+
+
 .port_name{
 margin-top: 10px;
 }
@@ -31,7 +40,29 @@ THUMBNAILS
 /* **************************************************************************
  NAV-MOBILE
 ************************************************************************** */
-
+.title-bar{
+    background-color: #222;
+    height: 60px;
+    padding-top: 17px;
+}
+#mobile-menu{
+    background-color: #222;
+    padding: 10px;
+}
+#mobile-menu li{
+    list-style: none;
+}
+#mobile-menu a{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    line-height: 2;
+}
+#mobile-menu a:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+.js-off-canvas-exit{
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
 
 /* **************************************************************************
@@ -117,7 +148,7 @@ footer hr{
 /* **************************************************************************
 MEDIA QUERIES
 ************************************************************************** */
-@media(max-width: 638px){
+@media(max-width: 658px){
     .nav-desktop{
         display: none;
     }

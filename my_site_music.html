@@ -10,7 +10,27 @@
 <body>
 <script src="js/jquery.js"></script>
 
+<div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
+            <ul>
+                <li><a href="my_site_portfolio.html">PORTFOLIO</a></li>
+                <li><a href="my_site_music.html">MUSIC</a></li>
+                <li><a href="my_site_contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
 <!--Mobile Navigation-->
+
+        <div class="off-canvas-content" data-off-canvas-content>
+
+            <div class="title-bar show-for-small-only">
+                <div class="title-bar-left">
+                    <button class="menu-icon" type="button" data-open="mobile-menu"></button>
+                    <span class="title-bar-title">MENU || JUSTIN ARMER</span>
+                </div>
+            </div>
 
 <!--Navigation-->
 <nav class="top-bar nav-desktop"> <!--nav-desktop specific style as opposed to mobile-->
@@ -68,6 +88,8 @@
         </div>
     </div>
 </footer>
+</div>
+    </div>
 
 
 <script src="js/foundation.min.js"></script>
