@@ -7,6 +7,8 @@ GENERAL
     /*font-family: 'Poiret One', cursive;*/
 /*}*/
 
+
+
 .wrap{
     width: 90%;
     max-width: 700px;
@@ -128,6 +130,7 @@ FOOTER
 footer{
     background-color: #222;
     padding: 80px 0;
+    margin-top: 120px;
 }
 
 footer a{
@@ -148,7 +151,7 @@ footer hr{
 /* **************************************************************************
 MEDIA QUERIES
 ************************************************************************** */
-@media(max-width: 658px){
+@media(max-width: 702px){
     .nav-desktop{
         display: none;
     }
